@@ -1,0 +1,8 @@
+name: My second Workflow
+on: [push]
+jobs:
+  my-second:
+    runs-on: ubuntu-latest
+    steps:
+      - run: ls
+    
